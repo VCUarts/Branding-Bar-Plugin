@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       VCUarts Branding Bar
- * Plugin URI:        https://github.com/VCUarts/vcuarts-wp-branding-bar
+ * Plugin URI:        https://github.com/VCUarts/Branding-Bar-Plugin
  * Description:       Virginia Commonwealth University and VCUarts Branded Header Bar
  * Version:           1.0.0
  * Author:            VCUarts
