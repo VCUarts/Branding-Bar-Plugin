@@ -29,23 +29,23 @@
   height: 100%;
   line-height: 40px;
 }
-.vcuarts-branding-bar a.vcu {
+.vcuarts-branding-bar a.vcu-bar {
   width: 380px;
 }
-.vcuarts-branding-bar a.vcu:hover .vcu-dk {
+.vcuarts-branding-bar a.vcu-bar:hover .vcu-dk {
   opacity: 0;
 }
-.vcuarts-branding-bar a.vcu:hover .vcu-color {
+.vcuarts-branding-bar a.vcu-bar:hover .vcu-color {
   opacity: 1.0;
 }
-.vcuarts-branding-bar a.vcuarts {
+.vcuarts-branding-bar a.vcuarts-bar {
   width: 85px;
   right: 20px;
 }
-.vcuarts-branding-bar a.vcuarts:hover .arts-dk {
+.vcuarts-branding-bar a.vcuarts-bar:hover .arts-dk {
   opacity: 0;
 }
-.vcuarts-branding-bar a.vcuarts:hover .arts-color {
+.vcuarts-branding-bar a.vcuarts-bar:hover .arts-color {
   opacity: 1.0;
 }
 .vcuarts-branding-bar .inner-vcubar {
@@ -73,7 +73,7 @@
     padding: 0 40px;
   }
 
-  .vcuarts-branding-bar a.vcuarts {
+  .vcuarts-branding-bar a.vcuarts-bar {
     right: 40px;
   }
 

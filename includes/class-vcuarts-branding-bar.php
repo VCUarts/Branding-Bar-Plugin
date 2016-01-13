@@ -58,7 +58,7 @@ class VCUarts_Branding_Bar {
 	public function __construct() {
 
 		$this->vcuarts_branding_bar = 'vcuarts-branding-bar';
-		$this->version = '1.0.0';
+		$this->version = '1.0.01';
 
 		$this->load_dependencies();
 		$this->define_admin_hooks();
