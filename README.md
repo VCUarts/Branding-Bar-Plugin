@@ -1,1 +1,1 @@
-# vcuarts-wp-branding-bar
+# Co-Branding Bar WP Plugin
