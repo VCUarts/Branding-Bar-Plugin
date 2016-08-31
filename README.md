@@ -1,1 +1,1 @@
-# Co-Branding Bar WP Plugin
+# Branding Bar / WP Plugin 
