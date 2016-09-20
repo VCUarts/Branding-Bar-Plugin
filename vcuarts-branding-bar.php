@@ -3,7 +3,7 @@
  * Plugin Name:       VCUarts Branding Bar
  * Plugin URI:        https://github.com/VCUarts/Branding-Bar-Plugin
  * Description:       Virginia Commonwealth University and VCUarts Branded Header Bar
- * Version:           1.1.01
+ * Version:           1.1.02
  * Author:            VCUarts
  * Author URI:        http://arts.vcu.edu
  * License:           GPL-2.0+
