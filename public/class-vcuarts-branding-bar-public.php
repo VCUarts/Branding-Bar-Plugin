@@ -53,6 +53,10 @@ class VCUarts_Branding_Bar_Public {
 			wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/vcuarts-branding-bar-public.css', array(), $this->version, 'all' );
 	}
 
+public function enqueue_scripts() {
+    wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/vcuarts-branding-bar-public.js', array(), $this->version, true );   
+}
+
 	/**
 	 * Including front end markup and things.
 	 */
