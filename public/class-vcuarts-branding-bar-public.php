@@ -50,19 +50,28 @@ class VCUarts_Branding_Bar_Public {
 	 * Register the stylesheets for the public-facing side of the site.
 	 */
 	public function enqueue_styles() {
-		if ( ! defined( 'VCUARTS_BAR_MIN_STYLES' ) ) {
-			wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/vcuarts-branding-bar-public.css', array(), $this->version, 'all' );
-		} else {
-			wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/vcuarts-branding-bar-min-public.css', array(), $this->version, 'all' );
+		if ( defined( 'VCUARTS_BAR_MIN_STYLES' ) ) {
+    			wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/vcuarts-branding-bar-min-public.css', array(), $this->version, 'all' );
+        } elseif ( defined( 'VCUARTS_BAR_SPINE_STYLES' ) ) {
+            wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/vcuarts-branding-bar-spine-public.css', array(), $this->version, 'all' );
+        } else {
+    			wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/vcuarts-branding-bar-public.css', array(), $this->version, 'all' );
 		}
-	}
+}
+
+  /**
+   * Register the scripts for the public-facing side of the site.
+   */
+  public function enqueue_scripts() {
+    if ( defined( 'VCUARTS_BAR_SPINE_STYLES' ) ) {
+      wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/vcuarts-branding-bar-public.js', array(), $this->version, true );
+    }
+}
 
 	/**
 	 * Including front end markup and things.
 	 */
 	public function front_end() {
-
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/partials/vcuarts-branding-bar-public-display.php';
-
 	}
 }
