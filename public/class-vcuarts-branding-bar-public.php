@@ -70,7 +70,6 @@ class VCUarts_Branding_Bar_Public {
 
 	/**
 	 * Including front end markup and things.
-   *
 	 */
 	public function front_end() {
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/partials/vcuarts-branding-bar-public-display.php';
