@@ -1,0 +1,64 @@
+.vcuarts-branding-bar .inner-vcubar {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  zoom: 1;
+  padding: 40px 20px;
+}
+.vcuarts-branding-bar .inner-vcubar:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.vcuarts-branding-bar .inner-vcubar:before,
+.vcuarts-branding-bar .inner-vcubar:after {
+  content: "";
+  display: table;
+}
+.vcuarts-branding-bar {
+  background: transparent;
+  position: relative;
+  z-index: 999;
+}
+.vcuarts-branding-bar a {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+}
+
+.vcuarts-branding-bar a.vcuarts-bar {
+  width: 150px;
+  height: auto;
+}
+.vcuarts-branding-bar a.vcuarts-bar .arts-color {
+  -webkit-transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in-out;
+}
+
+.vcuarts-branding-bar a.vcuarts-bar .arts-red {
+  fill: #FC363B;
+  opacity: 1.0;
+}
+.vcuarts-branding-bar a.vcuarts-bar .arts-gold {
+  fill: #FECB2E;
+  opacity: 1.0;
+}
+.vcuarts-branding-bar a.vcuarts-bar:hover .arts-red {
+  opacity: 0.7;
+}
+.vcuarts-branding-bar a.vcuarts-bar:hover .arts-gold {
+  opacity: 0.7;
+}
+
+.vcuarts-branding-bar .inner-vcubar {
+  position: relative;
+}
+
+@media (min-width: 480px) {
+
+  .vcuarts-branding-bar .inner-vcubar {
+    padding: 40px 40px;
+  }
+
+}
