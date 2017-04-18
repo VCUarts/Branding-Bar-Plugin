@@ -1,9 +1,7 @@
 .vcuarts-branding-bar .inner-vcubar {
   max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   zoom: 1;
-  padding: 40px 20px;
+  padding: 40px 0;
 }
 .vcuarts-branding-bar .inner-vcubar:after {
   content: " ";
@@ -16,8 +14,6 @@
   display: table;
 }
 .vcuarts-branding-bar {
-  background: transparent;
-  position: relative;
   z-index: 999;
 }
 .vcuarts-branding-bar a {
