@@ -16,7 +16,9 @@
 		<exclude name="Squiz.Commenting.FunctionComment.MissingParamTag" />
 		<exclude name="Squiz.Commenting.InlineComment.InvalidEndChar" />
     <exclude name="Squiz.Commenting.InlineComment.NotCapital" />
-		<exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType" />
+    <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType" />
+    <exclude name="Squiz.Commenting.DocCommentAlignment.SpaceBeforeStar" />
+		<exclude name="Squiz.Commenting.FileComment.MissingPackageTag" />
 	</rule>
 
   <rule ref="WordPress-Extra">
