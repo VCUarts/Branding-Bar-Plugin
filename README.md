@@ -6,9 +6,9 @@
 
 ### Minimal Styles Constant
 Define the following constant to the themes functions.php to get minimal styles  
-`define( 'VCUARTS_BAR_MIN_STYLES', true );
+`define( 'VCUARTS_BAR_MIN_STYLES', true );`
 
 ### Spinal Cord  
-Want the new new? 
-`define( 'VCUARTS_BAR_SPINE_STYLES', true );
+Want the new new?  
+`define( 'VCUARTS_BAR_SPINE_STYLES', true );`
 
