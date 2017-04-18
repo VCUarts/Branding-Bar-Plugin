@@ -8,7 +8,7 @@ language: php
 # Declare versions of PHP to use. Use one decimal max.
 php:
   # aliased to a recent 5.5.x version
-  - "5.7"
+  - "5.5"
 
 # Declare which versions of WordPress to test against.
 # Also declare whether or not to test in Multisite.
