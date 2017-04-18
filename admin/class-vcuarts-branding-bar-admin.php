@@ -15,7 +15,7 @@
  * @package    VCUarts_branding_bar
  * @subpackage VCUarts_branding_bar/admin
  */
-class VCUarts_branding_bar_Admin {
+class VCUarts_Branding_Bar_Admin {
 
 	/**
 	 * The ID of this plugin.

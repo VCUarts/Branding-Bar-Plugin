@@ -71,9 +71,9 @@ class VCUarts_Branding_Bar {
 	 *
 	 * Include the following files that make up the plugin:
 	 *
-	 * - vcuarts_branding_bar_Loader. Orchestrates the hooks of the plugin.
-	 * - vcuarts_branding_bar_Admin. Defines all hooks for the admin area.
-	 * - vcuarts_branding_bar_Public. Defines all hooks for the public side of the site.
+	 * - VCUarts_Branding_Bar_Loader. Orchestrates the hooks of the plugin.
+	 * - VCUarts_Branding_Bar_Admin. Defines all hooks for the admin area.
+	 * - VCUarts_Branding_Bar_Public. Defines all hooks for the public side of the site.
 	 *
 	 * Create an instance of the loader which will be used to register the hooks
 	 * with WordPress.
