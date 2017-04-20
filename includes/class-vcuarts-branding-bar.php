@@ -127,7 +127,11 @@ class VCUarts_Branding_Bar {
 
     $this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
-		$this->loader->add_action( 'get_sidebar', $plugin_public, 'front_end' );
+    if ( defined( 'VCUARTS_BAR_SPINE_STYLES' ) ) {
+      $this->loader->add_action( 'get_sidebar', $plugin_public, 'front_end' );
+    } else {
+      $this->loader->add_action( 'wp_head', $plugin_public, 'front_end' );
+    }
 
 	}
 
