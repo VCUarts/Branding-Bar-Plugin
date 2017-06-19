@@ -54,6 +54,8 @@ class VCUarts_Branding_Bar_Public {
     			wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/vcuarts-branding-bar-min-public.css', array(), $this->version, 'all' );
         } elseif ( defined( 'VCUARTS_BAR_SPINE_STYLES' ) ) {
             wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/vcuarts-branding-bar-spine-public.css', array(), $this->version, 'all' );
+        } elseif ( defined( 'VCUARTS_BAR_MIR_STYLES' ) ) {
+        wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/vcuarts-branding-bar-mir-public.css', array(), $this->version, 'all' );
         } else {
     			wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/vcuarts-branding-bar-public.css', array(), $this->version, 'all' );
 		}
